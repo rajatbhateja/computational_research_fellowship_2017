@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <style>
+    	svg {
+    		background: #f1f1f1;
+    	}
+    	#banner {
+			  position: absolute;
+			  top: 0px;
+			  left: 0px;
+			  right: 0px;
+			  width: 100%;
+			  height: 200px;
+			  z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<img id="banner" src="regular.jpg" alt="Banner Image"/>
+
+<form method="POST" action= "/submit">
+<ul class="form-style-1">
+    <li>
+        <label>Enter word here<span class="required">*</span></label>
+        <input type="text" name="word_input" class="field-long" />
+    </li>
+    <li>
+        <input type="submit" value="Submit" />
+    </li>
+</ul>
+</form>
+
+<!-- 	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" role="search" align="center" method="POST" action= "/submit">
+        <div class="form-group" align="center">
+          <input type="text" class="form-control" name="word_input" placeholder="Enter word here">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+ -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script> 
+	<script src="bubbles.js"></script>
+
+
+
+
+ 
+</body>
+</html>
